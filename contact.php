@@ -3,8 +3,8 @@
 /*if(isset($_POST['btnsubmit'])) {*/
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "has@bezingo.com";
-    $email_subject = "Your email subject line";
+    $email_to = "info@kuwaitbc.ae";
+    $email_subject = "Inquiry from Global Village - Kuwaiti Pavillion";
 
     function died($error) {
         // your error code can go here
@@ -62,7 +62,7 @@
   {
 
     $email_message = "Form details below.\n\n";
-    
+
 
     function clean_string($string) {
       $bad = array("content-type","bcc:","to:","cc:","href");
